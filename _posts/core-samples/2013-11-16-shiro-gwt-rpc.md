@@ -56,3 +56,4 @@ It's easy to override onAccessDenied and return 401 if it is a rpc request. See 
 		}
 
 	}
+	
