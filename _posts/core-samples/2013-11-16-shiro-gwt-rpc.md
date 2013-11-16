@@ -8,9 +8,9 @@ tags : [shiro, gwt, rpc, ajax]
 
 ##GWT.rpc and shiro redirects
 
-By default Apache Shiro's UserFilter save request and redirects to login page. This will not work well whith rpc/ajax requests.
+By default Apache Shiros UserFilter save request and redirects to login page. This will not work well whith rpc/ajax requests.
 
-It's easy to override UserFilter.onAccessDenied and return 401 if it is a rpc request. See example below.
+Its easy to override UserFilter.onAccessDenied and return 401 if it is a rpc request. See example below.
 
 	
 	/**
