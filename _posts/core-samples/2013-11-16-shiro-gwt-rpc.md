@@ -12,10 +12,10 @@ By default Apache Shiros UserFilter save request and redirects to login page. Th
 
 Its easy to override UserFilter.onAccessDenied and return 401 if it is a rpc request. See example below.
 
-```java	
+```Java	
 	/**
-	 * This default implementation simply calls
-	 * {@link #saveRequestAndRedirectToLogin(javax.servlet.ServletRequest, javax.servlet.ServletResponse) 
+ 	 * This default implementation simply calls
+ 	 * {@link #saveRequestAndRedirectToLogin(javax.servlet.ServletRequest, javax.servlet.ServletResponse) 
 	 * saveRequestAndRedirectToLogin}
 	 * and then immediately returns <code>false</code>, thereby preventing the chain from continuing so 
 	 * the redirect may execute.
